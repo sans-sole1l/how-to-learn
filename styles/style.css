@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 2px solid #f2f2f2;
 }
 
 .header {
@@ -76,6 +75,10 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  color: black;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -93,7 +96,6 @@
 .description {
   display: flex;
   justify-content: center;
-  border: 2px solid #f2f2f2;
   margin-top: 100px;
 }
 
@@ -115,6 +117,9 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .two-columns__paragraph {
@@ -130,12 +135,7 @@
   font-weight: bold;
 }
 
-.paragraph_margin {
-  margin: 30px 0 30px;
-}
-
 .digits {
-  border: 2px solid #f2f2f2;
   margin: 100px 0 100px;
 }
 
@@ -171,7 +171,7 @@
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -191,9 +191,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #f2f2f2;
   position: relative;
-  min-height: 890px;
+  min-height: 790px;
   background-color: #f2f2f2;
 }
 
@@ -234,16 +233,16 @@
   font-size: 36px;
   font-weight: normal;
   z-index: 1;
-}
-
-.feinman__link_position {
   position: absolute;
   top: 50%;
   right: 48px;
 }
 
+.feinman__link:hover {
+  color: #2f80ed;
+}
+
 .kaufman {
-  border: 2px solid #f2f2f2;
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
@@ -251,13 +250,13 @@
   flex-direction: column;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: white;
   margin-top: 90px;
   z-index: 3;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   z-index: 3;
 }
@@ -295,11 +294,9 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   z-index: 2;
-}
-
-.kaufman__triangle_position {
   position: absolute;
   top: 0;
   right: -210px;
@@ -357,9 +354,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__list {
   list-style: none;
   position: relative;
   left: -25%;
@@ -370,22 +364,15 @@
   color: white;
 }
 
+.footer__column-link:hover {
+  color: #2f80ed;
+}
+
 .footer__column_content_social {
   width: 160px;
 }
 
 .footer__social-icon {
-  margin: 20px 0 16px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__social-icon {
-  margin: 20px 0 16px;
-}
-
-.social-icon_size {
   width: 16px;
   height: 16px;
 }
