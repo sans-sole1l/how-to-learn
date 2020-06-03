@@ -2,7 +2,6 @@
   width: 300px;
   text-align: right;
   text-decoration: none;
-  color: #000000;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -10,8 +9,10 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  color: #2f80ed;
+  transition: 0.7s ease-in-out;
 }
 
 .feinman__link:hover {
-  color: #2f80ed;
+  opacity: 0.5;
 }
