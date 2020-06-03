@@ -1,0 +1,9 @@
+.cards__item {
+  width: 240px;
+}
+
+.cards__item:last-of-type {
+  position: relative;
+  top: 0;
+  left: -340px;
+}
