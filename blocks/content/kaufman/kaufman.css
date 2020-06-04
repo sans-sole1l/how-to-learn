@@ -1,7 +1,5 @@
 @import url(./__triangle/kaufman__triangle.css);
-@import url(./section-subtitle/section-subtitle.css);
-@import url(./section-title/section-title.css);
-@import url(./table/table.css);
+
 
 .kaufman {
   background-color: #1f1f1f;
