@@ -1,9 +1,16 @@
 .cards__item {
   width: 240px;
+  margin-right: 100px;
 }
 
+/*
 .cards__item:last-of-type {
   position: relative;
   top: 0;
   left: -340px;
+}
+*/
+
+.cards__item:nth-of-type(3) {
+  margin: 0;
 }
