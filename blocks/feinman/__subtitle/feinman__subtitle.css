@@ -1,5 +1,5 @@
 .feinman__subtitle {
-  width: 400px;
+  max-width: 400px;
   text-align: center;
   margin: 0;
   line-height: 51px;

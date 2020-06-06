@@ -1,0 +1,12 @@
+.resourses__logo-link {
+  /*border-radius: 5px;*/
+  transition: 0.7s ease-in-out;
+}
+
+.resourses__logo-link:hover {
+  /*box-shadow: 0 0 20px #1f1f1f;
+  background-color: #1f1f1f;*/
+  opacity: 0.5;
+}
+
+

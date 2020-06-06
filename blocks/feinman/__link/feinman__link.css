@@ -1,5 +1,5 @@
 .feinman__link {
-  width: 300px;
+  max-width: 300px;
   text-align: right;
   text-decoration: none;
   line-height: 51px;
